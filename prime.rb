@@ -1,14 +1,12 @@
 # Add  code here!
 def prime? (number)
-  start = 2
-  primes = (start..number).to_a
-  (start..number).each do |no|
-    (start..no).each do |num|
-      if ( no % num  == 0) && num != no
-        primes.delete(no)
-        break
-      end
+ for i in 2..n-1
+    if n % i == 0
+      is_prime = false
     end
   end
-  primes
+  if is_prime = false
+    return false
+  else 
+    return true
 end
